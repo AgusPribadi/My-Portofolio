@@ -25,6 +25,6 @@ a {
 }
 
 @font-face {
-    font-family: "burtons";
+    font-family: "burtons", "montserrat";
     src: url("../public/Burtons.otf");
 }
