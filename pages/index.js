@@ -42,7 +42,7 @@ export default function Home() {
                             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Agus Pribadi</h2>
                             <h3 className="text-2xl py-2 md:text-3xl">Backend Developer & Data Analyst</h3>
                             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
-                                Saya adalah mahasiswa akhir Teknik Informatika di Universitas Muhammadiyah Pontianak, saya mengerjakan web dan aplikasi machine learning
+                                Saya Adalah Mahasiswa Akhir Teknik Informatika di Universitas Muhammadiyah Pontianak, Saya Mengerjakan Web dan Aplikasi Machine Learning
                             </p>
                         </div>
                         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
