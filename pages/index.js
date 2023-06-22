@@ -10,6 +10,9 @@ import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
+import web5 from "../public/web7.png";
+import web5 from "../public/web8.png";
+import web7 from "../public/web9.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -119,6 +122,15 @@ export default function Home() {
                             </div>
                             <div className="basis-1/3 flex-1">
                                 <Image src={web4} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+                            </div>
+                            <div className="basis-1/3 flex-1">
+                                <Image src={web5} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+                            </div>
+                            <div className="basis-1/3 flex-1">
+                                <Image src={web6} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+                            </div>
+                            <div className="basis-1/3 flex-1">
+                                <Image src={web7} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
                             </div>
                         </div>
                     </section>
