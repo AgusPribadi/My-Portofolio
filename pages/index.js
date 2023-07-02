@@ -2,7 +2,7 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub, AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 import Image from "next/image";
-import deved from "../public/dev-ed-wave.png";
+import agus from "../public/Agus Pribadi.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
@@ -69,14 +69,14 @@ export default function Home() {
                             </a>
                         </div>
                         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-                            <Image src={deved} layout="fill" objectFit="cover" />
+                            <Image src={agus} layout="fill" objectFit="cover" />
                         </div>
                     </section>
 
                     <section>
                         <div className="lg:flex gap-10">
-                            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                                <Image src={design} width={100} height={100} />
+                            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+                                <Image class="mx-auto" src={design} width={100} height={100} />
                                 <h3 className="text-lg font-medium pt-8 pb-2">Website</h3>
                                 <p className="py-2"> Membuat Website Yang Cantik dan Powerful</p>
                                 <h4 className="py-4 text-teal-600">Teknologi yang saya gunakan</h4>
@@ -84,8 +84,8 @@ export default function Home() {
                                 <p className="text-gray-800 py-1">Laravel</p>
                                 <p className="text-gray-800 py-1">Tailwind CSS</p>
                             </div>
-                            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                                <Image src={code} width={100} height={100} />
+                            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+                                <Image class="mx-auto" src={code} width={100} height={100} />
                                 <h3 className="text-lg font-medium pt-8 pb-2">Machine Learning</h3>
                                 <p className="py-2"> Membuat Analisis Data Yang Tepat Untuk Perusahaan Anda</p>
                                 <h4 className="py-4 text-teal-600">Teknologi Yang Saya Gunakan</h4>
@@ -94,8 +94,8 @@ export default function Home() {
                                 <p className="text-gray-800 py-1">Django</p>
                                 <p className="text-gray-800 py-1">BI</p>
                             </div>
-                            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                                <Image src={consulting} width={100} height={100} />
+                            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+                                <Image class="mx-auto" src={consulting} width={100} height={100} />
                                 <h3 className="text-lg font-medium pt-8 pb-2">Manajer Proyek</h3>
                                 <p className="py-2"> Manajemen Proyek Aplikasi Agar Dikerjakan Secara Optimal</p>
                                 <h4 className="py-4 text-teal-600">Teknologi Yang Saya Gunakan</h4>
