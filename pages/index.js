@@ -29,10 +29,10 @@ export default function Home() {
                 <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
                     <section className="min-h-screen">
                         <nav className="py-10 mb-12 flex justify-between">
-                            <h1 className="text-xl">Agus Pribadi</h1>
+                            <h1 className="text-xl dark:text-white">Agus Pribadi</h1>
                             <ul className="flex items-center">
                                 <li>
-                                    <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl" />
+                                    <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white" />
                                 </li>
                                 <li>
                                     <a href="CV - Agus Pribadi.pdf" download="CV - Agus Pribadi.pdf" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8">
@@ -42,13 +42,13 @@ export default function Home() {
                             </ul>
                         </nav>
                         <div className="text-center p-10">
-                            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Agus Pribadi</h2>
-                            <h3 className="text-2xl py-2 md:text-3xl">Backend Developer & Data Analyst</h3>
-                            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
+                            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Agus Pribadi</h2>
+                            <h3 className="text-2xl py-2 dark:text-white md:text-3xl">Backend Developer & Data Analyst</h3>
+                            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
                                 Saya Adalah Mahasiswa Akhir Teknik Informatika di Universitas Muhammadiyah Pontianak, Saya Mengerjakan Web dan Aplikasi Machine Learning
                             </p>
                         </div>
-                        <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+                        <div className="text-5xl flex flex-col justify-center items-center gap-16 py-3 text-gray-600 dark:text-gray-400 sm:flex-row sm:justify-between sm:items-center sm:py-6">
                             <a href="https://twitter.com/ag_prbd339" target="_blank">
                                 <AiFillTwitterCircle />
                             </a>
@@ -107,8 +107,8 @@ export default function Home() {
                     </section>
                     <section>
                         <div>
-                            <h3 className="text-3xl py-1">Portofolio</h3>
-                            <p className="text-md py-2 leading-8 text-gray-800">Berikut adalah portofolio yang pernah saya kerjakan</p>
+                            <h3 className="text-3xl py-1 dark:text-white">Portofolio</h3>
+                            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">Berikut adalah portofolio yang pernah saya kerjakan</p>
                         </div>
                         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap ">
                             <div className="basis-1/3 flex-1">
