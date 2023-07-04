@@ -48,7 +48,7 @@ export default function Home() {
                                 Saya Adalah Mahasiswa Akhir Teknik Informatika di Universitas Muhammadiyah Pontianak, Saya Mengerjakan Web dan Aplikasi Machine Learning
                             </p>
                         </div>
-                        <div className="text-5xl flex flex-col justify-center items-center gap-16 py-3 text-gray-600 dark:text-gray-400 sm:flex-row sm:justify-between sm:items-center sm:py-6">
+                        <div className="text-5xl flex flex-wrap justify-center items-center gap-16 py-3 text-gray-600 dark:text-gray-400">
                             <a href="https://twitter.com/ag_prbd339" target="_blank">
                                 <AiFillTwitterCircle />
                             </a>
@@ -68,6 +68,7 @@ export default function Home() {
                                 <AiFillFacebook />
                             </a>
                         </div>
+
                         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
                             <Image src={agus} layout="fill" objectFit="cover" />
                         </div>
